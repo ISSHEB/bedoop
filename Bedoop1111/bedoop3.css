@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+.registration_page {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-gap: 7px;
+    justify-items: center;
+    justify-items: center;
+}
+
+.registration_head {
+    justify-self: end;
+    margin: 12px;
+    margin-bottom: 35px;
+}
+
+.registration_head_bottom {
+    margin-top: 121px;
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.registration_head_bottom_text {
+    color: #000920;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.registration_email {
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.registration_email_text {
+    color: #C4C9CF;
+}
+
+.registration_email-sign_input {
+    width: 350px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+
+.registration_sign {
+    position: relative;
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 490px;
+    color: white;
+}
+
+.registration_sign:hover
+{   color: #ffffff;
+    background: #191970; 
+}
+.registration_sign_button {
+    font-weight: 600;
+    
+}
