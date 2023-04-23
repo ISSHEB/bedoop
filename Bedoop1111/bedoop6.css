@@ -1255,7 +1255,7 @@ body {
     border-bottom: #EFEFEF 1px solid;
     padding: 5px;
     padding-left: 20px;
-    
+
 }
 
 .head_chat_text {
@@ -1264,12 +1264,14 @@ body {
     margin-left: 10px;
 }
 
-.head_chat_text_icon_camer{
+.head_chat_text_icon_camer {
     margin-left: 68px;
 }
-.head_chat_text_icon_phone{
+
+.head_chat_text_icon_phone {
     margin-left: 10px;
 }
+
 .head_chat_icon_photo {
     border-radius: 100px;
     margin-left: 20px;
@@ -1332,26 +1334,194 @@ body {
     color: #959EA8;
 
 }
-.body_chat_table{
+
+.body_chat_table {
     display: flex;
 }
-.body_chat_table_tipe{
-    width:268px;
+
+.body_chat_table_tipe {
+    width: 268px;
     height: 40px;
     background: #F4F5F5;
     margin-left: 14px;
     border-radius: 20px;
     display: flex;
     justify-content: start;
-    align-items:center;
+    align-items: center;
 
 }
-.body_chat_table_tipe_text{
+
+.body_chat_table_tipe_text {
     margin-left: 10px;
 }
-.body_chat_table_icon{
+
+.body_chat_table_icon {
     margin-left: 20px;
 }
-.body_chat_table_icon_second{
+
+.body_chat_table_icon_second {
     margin-left: 14px;
+}
+
+.header_proff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_proff_header {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_proff_text {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header_proff_icon {
+    margin-left: 142px;
+}
+
+.header_proff_header_name {
+    margin-top: 12px;
+}
+.header_proff_header_photo{
+    width: 117px;
+    height: 117px;
+    border-radius: 100px;
+    border:  #6869F7 solid 3px;
+}
+
+.header_proff_header_photo_text_bottom {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.header_proff_header_name_icon {
+    width: 19px;
+    height: 19px;
+    margin-left: 4px;
+}
+
+.body_proff_button_icon {
+    width: 24px;
+    height: 24px;
+    font-weight: 900;
+}
+
+.body_proff {
+    height: 285px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 34px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.body_proff_button {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    width: 283px;
+    height: 53px;
+    grid-template-columns: 50px 240px 50px;
+}
+
+.body_proff_button_text {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.body_proff_button_icon_second {
+    align-self: center;
+}
+
+.lock {
+    margin-left: -3px;
+}
+
+.block {
+    height: 18px;
+    width: 18px;
+
+}
+
+.boby_bottom_baner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.boby_bottom_baner_text {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 30px;
+}
+.vip_header{
+    display: grid;
+    grid-template-columns: 30px 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.vip_hader_text{
+    justify-self: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+.vip_body_text{
+    margin: 20px;
+   
+}
+.vip_body_icons{
+ height: 480px;
+width: 351px;
+margin-left: 20px;
+margin-top: 36px;
+}
+.vip_body_icons_icon{
+display: grid;
+grid-template-columns: 62px 261px;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 20px;
+
+}
+.vip_body_icons_icon_text{
+    display: grid;
+    grid-gap: 8px;
+}
+.vip_body_icons_icon_text_text{
+font-size: 20px;
+font-weight: 600;
+}
+.vip_body_icons_icon_text_bottom{
+font-size: 14px;
+font-weight: 400;
+color: #AAAAAA;
+}
+.vip_bottom_buttom{
+    height: 60px;
+width: 340px;
+border-radius: 12px;
+background: #6869F7;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+
+color: white;
 }
