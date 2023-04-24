@@ -1390,11 +1390,12 @@ body {
 .header_proff_header_name {
     margin-top: 12px;
 }
-.header_proff_header_photo{
+
+.header_proff_header_photo {
     width: 117px;
     height: 117px;
     border-radius: 100px;
-    border:  #6869F7 solid 3px;
+    border: #6869F7 solid 3px;
 }
 
 .header_proff_header_photo_text_bottom {
@@ -1469,7 +1470,8 @@ body {
     font-weight: 600;
     margin: 30px;
 }
-.vip_header{
+
+.vip_header {
     display: grid;
     grid-template-columns: 30px 300px;
     justify-content: center;
@@ -1477,51 +1479,297 @@ body {
     margin: 20px;
     margin-bottom: 40px;
 }
-.vip_hader_text{
+
+.vip_hader_text {
     justify-self: center;
     font-weight: 600;
     font-size: 32px;
 }
-.vip_body_text{
+
+.vip_body_text {
     margin: 20px;
-   
-}
-.vip_body_icons{
- height: 480px;
-width: 351px;
-margin-left: 20px;
-margin-top: 36px;
-}
-.vip_body_icons_icon{
-display: grid;
-grid-template-columns: 62px 261px;
-justify-content: space-around;
-align-items: center;
-margin-bottom: 20px;
 
 }
-.vip_body_icons_icon_text{
+
+.vip_body_icons {
+    height: 480px;
+    width: 351px;
+    margin-left: 20px;
+    margin-top: 36px;
+}
+
+.vip_body_icons_icon {
+    display: grid;
+    grid-template-columns: 62px 261px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.vip_body_icons_icon_text {
     display: grid;
     grid-gap: 8px;
 }
-.vip_body_icons_icon_text_text{
-font-size: 20px;
-font-weight: 600;
-}
-.vip_body_icons_icon_text_bottom{
-font-size: 14px;
-font-weight: 400;
-color: #AAAAAA;
-}
-.vip_bottom_buttom{
-    height: 60px;
-width: 340px;
-border-radius: 12px;
-background: #6869F7;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 20px;
 
-color: white;
+.vip_body_icons_icon_text_text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.vip_body_icons_icon_text_bottom {
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+
+.vip_bottom_buttom {
+    height: 60px;
+    width: 340px;
+    border-radius: 12px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 40px;
+    color: white;
+}
+
+.paymenr_header {
+    height: 70px;
+    width: 337px;
+    margin: 8px;
+    display: grid;
+    grid-template-columns: 20px 250px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.paymenr_header_text {
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.payment_baner_header {
+    height: 175px;
+    width: 350px;
+    border-radius: 12px;
+    border-radius: 12px;
+    background: rgb(69, 212, 228);
+    background: linear-gradient(148deg, rgba(69, 212, 228, 1) 28%, rgba(62, 236, 171, 1) 72%);
+
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.payment_baner_header {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+}
+
+.payment_baner_header_titel {
+    display: flex;
+    width: 296px;
+    height: 40px;
+    margin: 20px;
+}
+
+.payment_baner_header_titel_text {
+    justify-self: start;
+    align-self: start;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.payment_baner_header_titel_buttom {
+    margin-left: 85px;
+    height: 35px;
+    width: 133px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment_baner_header_titel_buttom_text {
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.payment_baner_header_titel_buttom_plus {
+    margin-left: 0px;
+}
+
+.payment_baner_header_text {
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.payment_body_text {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.payment_body_choose_cubs {
+    display: grid;
+    overflow-y: scroll;
+    height: 190px;
+    grid-template-columns: repeat(8, 140px);
+    grid-gap: 10px;
+}
+
+.payment_body_choose {
+    height: 162px;
+    width: 140px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.2);
+}
+
+.payment_body_text_text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.payment_body_text_second {
+    font-size: 16px;
+    font-weight: 400;
+    color: #BFBFBF;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+.wallet {
+    height: 152px;
+    width: 350px;
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 8px 6px rgba(34, 60, 80, 0.14);
+    display: flex;
+}
+
+.wallet_text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.wallet_text_titel {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.wallet_text_center {
+    align-self: end;
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+
+.wallet_text_bottom {
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    color: #CFCFCF;
+}
+
+.wallet_icon {
+    margin-left: 77px;
+    margin-top: 20px;
+}
+
+.wallet_history_header {
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.wallet_history_titel {
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wallet_history_titel_second {
+    color: #393939;
+    justify-self: end;
+    align-self: center;
+    margin: 4px;
+
+}
+.wallet_history_titel_second_icon{
+    margin: 4px;
+}
+.wallet_history_header_openHist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wallet_bottom_historu{
+height: 225px;
+width: 350px;
+border-radius: 12px;
+margin: 16px;
+box-shadow: 1px 4px 8px -1px rgba(34, 60, 80, 0.42);
+
+}
+.wallet_bottom_historu_text{
+    display: grid;
+    grid-template-columns: 75px 150px 100px;
+    justify-content: start;
+    align-items: center;
+    height: 70px;
+}
+.wallet_bottom_historu_text_center{
+    display: flex;
+    flex-direction: column;
+}
+.wallet_bottom_historu_text_center_text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.wallet_bottom_historu_text_center_text_second{
+    font-size: 16px;
+    color: #CFCFCF;
+}
+.wallet_bottom_historu_text_icon{
+    margin-top: 7px;
+}
+.wallet_bottom_historu_text_center_text_end{
+    font-size: 16px;
+    font-weight: 600;
+    justify-self: flex-end;
 }
