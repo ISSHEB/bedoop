@@ -1773,3 +1773,68 @@ box-shadow: 1px 4px 8px -1px rgba(34, 60, 80, 0.42);
     font-weight: 600;
     justify-self: flex-end;
 }
+.button_girl{
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    border: #C4C9CF solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #525863;
+}
+.button_girl:hover{
+    border: #6869F7 solid 1px;
+    color: #6869F7;
+}
+.button_man{
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    border: #C4C9CF solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color:  #525863;
+}
+.button_man:hover{
+    border: #6869F7 solid 1px;
+    color: #6869F7;
+}
+.button_girl_div_button{
+    font-weight: 900;
+}
+.button_man_div_button{
+    font-weight: 900; 
+}
+.registration_head_bottom_fif{
+    margin-top: 20px;
+    justify-self: start;
+    font-size: 32px; 
+    color: #000920;
+    font-weight: 900;
+   
+}
+.registration_page_fif{
+    display: grid;
+    grid-gap: 7px;
+    justify-items: center;
+    justify-items: center;
+    
+}
+.registration_sign_fif{
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 280px;
+    color: white;
+}
+.registration_page_fif_iconHead{
+    justify-self: start;
+    margin: 20px;
+}
