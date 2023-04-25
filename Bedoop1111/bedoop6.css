@@ -2273,4 +2273,17 @@ box-shadow: 1px 4px 8px -1px rgba(34, 60, 80, 0.42);
 width: 390px;
 border-radius: 0px;
  display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 10px;
+}
+.div_menu_for_all_icon_first{
+    margin: 11px;
+    padding: 10px
+}
+.div_menu_for_all_icon{
+    margin: 10px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
 }
