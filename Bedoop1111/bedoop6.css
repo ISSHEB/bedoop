@@ -2268,3 +2268,9 @@ box-shadow: 1px 4px 8px -1px rgba(34, 60, 80, 0.42);
 .ccc{
     margin-top: 308px;
 }
+.div_menu_for_all{
+ height: 70px;
+width: 390px;
+border-radius: 0px;
+ display: flex;
+}
