@@ -12,7 +12,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
     display: grid;
-    grid-gap: 7px;
     justify-items: center;
     justify-items: center;
 }
@@ -44,10 +43,268 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 402px;
+    margin-top: 40px;
+    color: white;
+}
+.registration_sign_six{
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 101px;
+    color: white;
+}
+.registration_head {
+    justify-self: end;
+    margin: 12px;
+    margin-bottom: 35px;
+}
+
+.registration_head_bottom {
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+.registration_head_text {
+    color: #6869F7;
+    font-weight: 900;
+    font-size: 16px;
+
+}
+
+.registration_head_bottom_text {
+    color: #000920;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.welcom_bedoop {
+    color: #6869F7;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.registration_sign_accont {
+    justify-self: start;
+    margin-bottom: 35px;
+}
+
+.registration_sign_accont_text {
+    color: #959EA8;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.registration_email {
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.registration_email_text {
+    color: #C4C9CF;
+}
+
+
+
+.registration_email-sign_input {
+    width: 350px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+
+.registration_password {
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.registration_password_text {
+    color: #C4C9CF;
+    font-size: 15px;
+}
+
+.registration_password_sign {
+    border-width: 0px;
+    border: none;
+
+}
+
+.registration_password_sign_input {
+    width: 335px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+
+.registration_forget {
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.registration_forget_text {
+    color: #C4C9CF;
+}
+
+.registration_enter {
+    margin-top: 45px;
+}
+
+.registration_enter_text {
+    color: #959EA8;
+    font-weight: 600;
+}
+
+.registration_icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 265px;
+}
+
+
+.icon_vk {
+    border-radius: 100px;
+    width: 60px;
+}
+
+.icon_odna {
+    width: 60px;
+}
+
+.icon_gogle {
+    background: #2787F5;
+    border-radius: 100px;
+    width: 60px;
+}
+
+
+.registration_sign:hover
+{   color: #ffffff;
+    background: #191970;  
+}
+.registration_sign_button{
+    font-weight: 600;
+}
+.registration_head_bottom_second {
+    margin-top: 51px;
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+.registration_head_text_second {
+    color: #6869F7;
+    font-weight: 900;
+    font-size: 16px;
+
+}
+
+.registration_head_bottom_text_second {
+    color: #000920;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.welcom_bedoop_second {
+    color: #6869F7;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.registration_sign_accont_second {
+    justify-self: start;
+    margin-bottom: 35px;
+}
+
+.registration_sign_accont_text_second {
+    color: #959EA8;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.registration_email_second {
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.registration_email_text_second {
+    color: #C4C9CF;
+}
+
+
+
+.registration_email-sign_input_second {
+    width: 328px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+
+.registration_password_second {
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.registration_password_text_second {
+    color: #C4C9CF;
+    font-size: 15px;
+}
+.registration_sign_second{
+    margin-top: 231px;
+}
+.registration_password_sign_second {
+    border-width: 0px;
+    border: none;
+
+}
+
+.registration_password_sign_input_second {
+    width: 328px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+
+.registration_sign_second {
+    margin-top: 231px;
+}
+
+.registration_sign_second {
+    position: relative;
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 145px;
     color: white;
 }
 
+.registration_sign_second:hover
+{   color: #ffffff;
+    background: #191970;  
+}
+
+.registration_sign_button_second {
+    font-weight: 600;
+    color: white;
+}
 .registration_sign:hover {
     color: #ffffff;
     background: #191970;
@@ -80,7 +337,7 @@ body {
 #fader {
     position: relative;
     left: 3px;
-    width: 320px;
+    width: 250px;
     height: 10px;
     background: linear-gradient(90deg, rgba(46, 191, 145, 1) 0%, rgba(104, 105, 247, 1) 48%, rgba(46, 191, 145, 1) 100%);
 
@@ -92,6 +349,9 @@ body {
     border-radius: 25px;
 
 
+}
+.xxx{
+    margin-left: 20px;
 }
 
 .rang input::-moz-range-thumb {
@@ -214,7 +474,7 @@ body {
 }
 
 .city {
-    margin-top: 121px;
+    margin-top: 75px;
     margin-bottom: 40px;
 }
 
@@ -244,7 +504,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 463px;
+    margin-top: 335px;
     color: white;
 }
 
@@ -301,10 +561,11 @@ body {
 }
 
 .find {
-    margin-top: 121px;
+    margin-top: 40px;
     justify-self: start;
     font-size: 32px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 .sexx:hover {
@@ -320,7 +581,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 320px;
+    margin-top: 200px;
     color: white;
 }
 
@@ -340,7 +601,7 @@ body {
 .div_photo {
 
     display: grid;
-    grid-template-columns: repeat(3, 120px);
+    grid-template-columns: repeat(3, 115px);
     width: 357px;
     height: 251px;
     margin-top: 24px;
@@ -374,7 +635,6 @@ body {
 }
 
 .registration_head_bottom {
-    margin-top: 121px;
     justify-self: start;
     font-size: 32px;
     margin-bottom: 40px;
@@ -388,7 +648,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 198px;
+    margin-top: 135px;
     color: white;
 }
 
@@ -407,6 +667,30 @@ body {
     height: 100%;
     margin-top: 43px;
 }
+
+.registration_head_bottom_nine{
+    margin-top: 40px;
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.registration_sign_nine{
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 397px;
+    color: white;
+}
+.registration_sign_nine:hover
+{   color: #ffffff;
+    background: #191970; 
+}
+
+
 
 .rang_rang input {
     -webkit-appearance: none;
@@ -458,7 +742,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 123px;
+    margin-top: 68px;
     color: white;
 }
 
@@ -475,7 +759,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 205px;
+    margin-top: 116px;
     color: white;
 }
 
@@ -773,6 +1057,7 @@ body {
     font-weight: 400;
 
 }
+
 
 .acc_body_info {
     display: flex;
@@ -1831,10 +2116,155 @@ box-shadow: 1px 4px 8px -1px rgba(34, 60, 80, 0.42);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 280px;
+    margin-top: 290px;
     color: white;
+}
+.registration_sign_fif:hover
+{   color: #ffffff;
+    background: #191970; 
 }
 .registration_page_fif_iconHead{
     justify-self: start;
     margin: 20px;
+}
+.registration_head_bottom_text_four {
+    color: #000920;
+    font-weight: 900;
+    margin-left: 20px;
+    padding:  0;
+}
+
+.registration_email {
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.registration_email_text {
+    color: #C4C9CF;
+    font-weight: 400;
+}
+
+.registration_email-sign_input_four {
+    width: 318px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+
+.registration_sign_four {
+    position: relative;
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 344px;
+    color: white;
+}
+
+.registration_sign:hover
+{   color: #ffffff;
+    background: #191970; 
+}
+.registration_sign_button {
+    font-weight: 600;
+    
+}
+.registration_head_bottom_four {
+    margin-top: 30px;
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.registration_email-sign_input {
+    width: 334px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+.registration_head_bottom_four {
+    margin-top: 10px;
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+
+.registration_email-sign_input_thir {
+    width: 281px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+    margin-left: 20px;
+}
+.registration_email_thir {
+    justify-self: start;
+    margin-left: 20px;
+}
+.registration_head_bottom_thir {
+    margin-top: 20px;
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.registration_head_bottom_thir {
+    margin-top: 7px;
+    justify-self: start;
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-left: 3px;
+    
+    
+}
+.registration_email-sign_input_thirr {
+    width: 331px;
+    border-width: 0px;
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    outline: 0px;
+}
+.registration_sign_thir {
+    position: relative;
+    width: 350px;
+    height: 48px;
+    border-radius: 40px;
+    background: #6869F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 353px;
+    color: white;
+}
+
+.registration_sign_thir:hover
+{   color: #ffffff;
+    background: #191970; 
+}
+.registration_sign_button_thir {
+    font-weight: 600;
+    
+}
+
+.registration_sign_button_fif {
+    font-weight: 600;
+    
+}
+.registration_sign_four:hover
+{   color: #ffffff;
+    background: #191970; 
+}
+.zzz{
+    margin-top: 211px;
+}
+.yyy{
+    margin-top: 40px;
+}
+.ccc{
+    margin-top: 308px;
 }
